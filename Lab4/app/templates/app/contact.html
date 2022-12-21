@@ -1,0 +1,20 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+
+<h2>{{ title }}.</h2>
+<h3>{{ message }}</h3>
+
+<address>
+   Красная площадь <br />
+    город Москва, столица Российской Федерации<br />
+    <abbr title="Телефон">P:</abbr>
+    425.555.0100
+</address>
+
+<address>
+    <strong>Поддержка:</strong>   <a href="mailto:Support@example.com">Поддержка.нет</a><br />
+    <strong>Рыночек:</strong> <a href="mailto:Marketing@example.com">Рыночек.ру</a>
+</address>
+
+{% endblock %}
